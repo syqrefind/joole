@@ -1,4 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Backlog
+
+- [ ] User Login (Page 1)
+  - [ ] UI layout
+  - [ ] UX
+- [ ] Product Line Search (Page 2,3)
+- [ ] Product Listing View (Page 4,6)
+- [ ] Advanced Product Search (Page 5)
+- [ ] Basic Product Page View (Page 6-9)
+- [ ] Product Comparison (Page 10,11)
+
+
+
+## Notes
+
+#### Login Page
+
+Login Margin: 34%, 1- 65.8% = 34.2%
+
+Login Width: 31.8%
+
+Login top margin: 24%
+
+Sign up: 6.6% to top; 3.4% to right
+
+Logo Text: 17vh, 
+
+Description Text: 3vh
+
+Input box font:
+
+Placeholder Text:
+
+Login Button: 2.5vh, #6384a3, #ffffff
+
+
+
+
+
+
 
 ## Available Scripts
 

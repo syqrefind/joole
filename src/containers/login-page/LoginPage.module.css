@@ -1,0 +1,118 @@
+#global-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, rgba(125,182,239,1) 1%, rgba(255,255,255,1) 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#sign-up {
+    color: #595959;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    right: 3.4%;
+    top: 6%;
+    /* top: 6vh;
+    right: 3.4vw; */
+}
+
+a {
+    text-decoration: none !important;
+    color: #595959;
+}
+
+#login-div {
+    padding: 0;
+    text-align: center;
+    display: block;
+    width: 31.8%;
+    /* border: 1px solid black; */
+    margin-top: 15%;
+    margin-left: 33%;
+}
+
+#login::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.logo-text {
+    /* font-size: 17vh; */
+    font-size: 150px;
+    color: #1f4f7b;
+}
+
+#description {
+    display: block;
+    color: #767070;
+    /* font-size: 3vh; */
+    padding: 10px 0 0 0;
+    margin: 0 0 0 -10px;
+    font-size: 28px;
+    white-space: nowrap;
+    font-weight: bold;
+    width: 100%;
+}
+
+#description::after{
+    display: block;
+    content: '';
+    clear: both;
+    height: 35px;
+}
+
+#log-in {
+    /* float:right; */
+    position: absolute;
+    right: 34.4%;
+    border-radius: 5px;
+
+    /* font-size: 2.5vh; */
+    font-size: 20px;
+    padding: 5px 30px 5px 30px;
+    color: white;
+    background-color: #6384a3;
+    cursor: pointer;
+}
+
+
+.inputs { 
+    /* font-size: 2.2vh; */
+    font-size: 20px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-radius: 8px;
+    border: #a6a6a6 2px solid;
+}
+
+.input-spans::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#username-input {
+    /* background: url(./../../username-background.png) no-repeat scroll right top; */
+    background: white url(./../../user.png) no-repeat scroll ;
+    background-position: 98.8% 50%;
+}
+
+#password-input {
+    /* background: url(./../../password-background.png) no-repeat scroll right top; */
+    background: white url(./../../pass.png) no-repeat scroll ;
+    background-position: 98% 50%;
+}

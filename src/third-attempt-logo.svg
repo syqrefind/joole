@@ -1,0 +1,17 @@
+<svg width="460" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="462" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#7c7272" opacity="0.8" ry="134.500002" rx="134.500002" id="svg_1" cy="261.937502" cx="139.499998" stroke-width="0" fill="#6384a3"/>
+  <ellipse stroke="#7c7272" opacity="0.8" ry="134.500002" rx="134.500002" id="svg_7" cy="164.937502" cx="312.499998" stroke-width="0" fill="#6384a3"/>
+  <path id="svg_8" d="m182,134.4375c0,1 16,7 16,7c0,0 17,8 17,7.5625c0,0.4375 14,12.4375 14,12c0,0.4375 13,11.4375 13,11c0,0.4375 10,13.4375 10,13c0,0.4375 9,16.4375 9,16c0,0.4375 6,12.4375 6,12c0,0.4375 5,17.4375 5,17c0,0.4375 2,14.4375 2,14c0,0.4375 0,16.4375 0,16c0,0.4375 -1,17.4375 -1,17c0,0.4375 -2,14.4375 -2,14c0,0.4375 -14,-4.5625 -14,-4.5625c0,0 -17,-10 -17,-10.4375c0,0.4375 -15,-8.5625 -15,-9c0,0.4375 -10,-11.5625 -10,-12c0,0.4375 -10,-10.5625 -10,-11c0,0.4375 -9,-15.5625 -9,-16c0,0.4375 -6,-13.5625 -6,-14c0,0.4375 -7,-14.5625 -7,-15c0,0.4375 -4,-16.5625 -4,-17c0,0.4375 0,-20.5625 0,-20.5625c0,0 1,-15 1,-15.4375c0,0.4375 2,-12.5625 2,-11.5625z" stroke-opacity="null" stroke-width="0" stroke="#7c7272" fill="#1f4f7b"/>
+ </g>
+</svg>
