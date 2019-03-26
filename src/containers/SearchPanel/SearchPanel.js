@@ -5,6 +5,17 @@ import styles from './SearchPanel.css';
 
 const constraints = ['Product Type', 'Technical Specifications', 'Brand', 'Past Selections', 'Certifications'];
 
+let modelYear = (
+    <>
+        <span>
+            Model year:
+        </span>
+        <input type='text' />
+        –
+        <input type='text' />
+    </>
+);
+
 // NEED DYNAMIC CSS OBJECTS DEFINED AS VARIABLES HERE (change with clicks, update HTML contents with interpolation)
 
  
