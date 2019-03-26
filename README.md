@@ -8,8 +8,8 @@
 - [ ] Advanced Product Search (Page 5)
 - [ ] Basic Product Page View (Page 6-9)
 - [ ] Product Comparison (Page 10,11)
-
-
+- [x] 404 Component
+- [x] if logged in, go to 404
 
 ## Notes
 
@@ -33,7 +33,30 @@ Placeholder Text:
 
 Login Button: 2.5vh, #6384a3, #ffffff
 
+### Search Bar
 
+select: \#d9d9d9
+
+Color and triangle: #595959
+
+search icon: \#443f3f
+
+> In `vh`.
+
+Size:722x41 (661)
+
+| 83.0% |
+| ----- |
+| 4.7%  |
+| 76.0% |
+
+Position
+
+| 53.2% |
+| ----- |
+| 48.4% |
+| 42.2% |
+| 48.9% |
 
 
 
@@ -105,4 +128,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 # joole

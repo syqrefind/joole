@@ -1,0 +1,39 @@
+.show-indicator {
+    font-size: 20px;
+    border: 1px #7f7f7f solid;
+    border-radius: 4px;
+}
+
+.department-input {
+    position: relative;
+    right: -5px;
+    background-color: #d9d9d9;
+    color: #595959;
+    padding: 5px 5px 5px 10px;
+    width: 128px;
+    margin: 0 0 0 0;
+    /* z-index: 1; */
+}
+
+.mechanical-input {
+    background-color: white;
+    color: #595959;
+    padding: 5px 25px 5px 12px;
+    width: 320px;
+    margin: 0 0 0 0;
+    /* z-index: 0; */
+}
+
+.show-indicator::-webkit-calendar-picker-indicator {
+    opacity: 100;
+}
+
+.non-decor {
+    position: relative;
+    font-size: 20px;
+    color: #4b4747;
+    text-decoration: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    left: -25px;
+}

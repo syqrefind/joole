@@ -1,0 +1,100 @@
+.container {
+    display: block;
+    /* float: left; */
+    overflow: hidden;   /*https://stackoverflow.com/questions/1260122/expand-a-div-to-take-the-remaining-width*/
+    border: 1px solid #d9d9d9;
+}
+
+.container div {
+    margin: 0 0 0 0;
+}
+
+.directory {
+    font-weight: bold;
+}
+
+.higher-directory {
+    color: #2b5077;
+}
+
+.lower-directory {
+    color: #7e7e7e;
+}
+
+.product-table {
+    display: grid;
+    grid-template-columns: 288px 288px 288px 288px;
+    grid-template-rows: 478px;
+    grid-column-gap: 5px;
+    grid-row-gap: 15px;
+}
+
+.cell {
+    border: 1px #d9d9d9 solid;
+}
+
+.verified {
+    color: #689bd0;
+    text-align: right;
+    font-size: 15px;
+    padding: 6px 5px 3px 0; 
+}
+
+.image-and-name {
+    height: 220px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.product-name {
+    color: #2a4f76;
+    font-weight: bold;
+}
+
+.brief-specs {
+    background-color: #f2f2f2;
+    height: 109px;
+    text-align: center;
+    padding: 5px 0 0 0;
+    color: #595959;
+    font-size: 21px;
+}
+
+.history {
+    height: 54px;
+    text-align: center;
+    color: #b12318;
+    font-size: 21px;
+}
+
+.compare-and-add {
+    text-align: center;
+    color: #595959;
+    font-size: 18px;
+    padding: 6px 0 0 0;
+    position: relative;
+    left: -15px;
+    font-weight: bold;
+}
+
+.check-to-compare {
+    cursor: pointer;
+    /* outline: 1px solid #4b7197; */
+    outline: 0;
+}
+
+.add {
+    color: white;
+    background-color: #6984a0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 8px 5px 8px;
+    position: relative;
+    right: -20px;
+}
+
+.icon {
+    color: black;
+}

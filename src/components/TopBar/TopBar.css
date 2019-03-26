@@ -1,0 +1,16 @@
+.container {
+    display: block;
+    width: 100vw;
+    height: 7.5vw;
+    background-color: antiquewhite;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background: rgb(184,209,233);
+    background: linear-gradient(270deg, rgba(184,209,233,1) 25%, rgba(255,255,255,1) 100%);
+    border: 1.5px #4b7197 solid;
+}
+
+.non-decor {
+    text-decoration: none;
+}
+

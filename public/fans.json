@@ -1,0 +1,87 @@
+{
+    "title": "Fans",
+    "inventory": [
+        {
+            "id": "Big-Ass-Haiku-H-Series-S3150-S0-BC-04-01-C-01",
+            "name": "Big Ass Haiku H Series S3150-S0-BC-04-01-C-01",
+            "selected": false,
+            "verified": "08/21/2016",
+            "featured": "false",
+
+            "Miscellaneous": {
+                "CFM": 8500,
+                "Power at max speed": "33W",
+                "Loudness": "40dBA",
+                "Fan sweep diameter": "60min",
+                "Past specifications": {
+                    "#firm": 10,
+                    "#global": 1492
+                }
+            },
+            "Product Summary": {
+                "Description": {
+                    "Manufacturer": "Big Ass",
+                    "Series": "Haiku H",
+                    "Model": "S3150-S0-BC-04-01-C-01"
+                },
+                "Type": {
+                    "Use Type": "Commercial",
+                    "Application": "Indoor",
+                    "Mounting": "Location Roof",
+                    "Accessories": "With light",
+                    "Model year": 2016
+                },
+                "Technical Specifications": {
+                    "Airflow (CFM)": 5467,
+                    "Power (W)": {"Min": 1.95, "Max": 21.14},
+                    "Operating voltage (VAC)": {"Min": 100, "Max": 240},
+                    "Fan speed (RPM)": {"Min": 35, "Max": 200},
+                    "Number of fan speeds": 7,
+                    "Sound at max speed (dBA)": 35,
+                    "Fan sweep diameter (in)": 60,
+                    "Height (in)": {"Min": 12.3, "Max": 57},
+                    "Weight (lbs)": 13
+                }
+            },
+            "Product Details": {
+                "Series Information": [
+                    "Airfoils – Moso bamboo – 60” diameter",
+                    "Airfoil Finishes – Caramel Bamboo or Cocoa Bamboo",
+                    "Hardware Finishes – Satin Nickel, Oil-Rubbed Bronze, Black or White",
+                    "Motor – EC motor with digital inverter drive",
+                    "Exceeds ENERGY STAR fan efficiency requirements by up to 1200%",
+                    "Controls – Remote control Remote control (included), Haiku Home mobile app, Haiku Wall Control (optional), or Amazon Alexa-enabled devices (optional)",
+                    "Onboard Sensors – Ambient and surface temperature, relative humidity, and passive infrared sensors enable SenseME technology. Technology lets you automate your fan’s operation",
+                    "to maximize convenience and energy savings",
+                    "Environment – Indoor use only.",
+                    "Accessories – Haiku Light Kit and Haiku Wall Control. See respective spec sheets for details. A Tall Ceiling Kit and Stabilizer Kit are available for ceilings 14 feet (4.3 meters) or taller.",
+                    "Patented LED light module (optional) seamlessly integrates with the body of the fan",
+                    "Made in the U.S.A."
+                ]
+            },
+            "Product Documentation": [
+                "CSI – Three Part Specification (DOC)",
+                "Submittal (PDF)",
+                "Control Options (PDF)",
+                "Photometric Data (PDF)",
+                "BIM (RVT)",
+                "Plan Views (DWG)",
+                "Elevation Views (DWG)"
+            ],
+            "Contact": {
+                "Sales Representative": {
+                    "Name": "Marty McFly",
+                    "Phone": "+1 650 889 6222",
+                    "Email": "marty@mcfly.com",
+                    "Web": "http://www.test.com"
+                },
+                "Manufacturer": {
+                    "Department": "Technical Support",
+                    "Phone": "+1 800 466 8200",
+                    "Email": "techsupport@bigass.com",
+                    "Web": "http://www.bigassfans.com"
+                }
+            }
+        }
+    ]
+}

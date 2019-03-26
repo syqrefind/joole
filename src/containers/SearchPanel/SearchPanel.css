@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border: 1px solid black;
+    width: 319px;
+    font-size: 21px;
+}
+
+/* .boxes {
+    display: inline;
+} */
+
+.entries span {
+    float:right;
+}
+
+.boxes:nth-child(odd) {
+    background-color: #f2f2f2;
+    padding: 8px 9px 8px 9px;
+}
+
+.icons {
+    /* float: right; */
+    color: #595959;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.product-type {
+}
