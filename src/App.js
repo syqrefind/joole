@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { faCaretRight} from '@fortawesome/free-solid-svg-icons'
 import { faCaretDown} from '@fortawesome/free-solid-svg-icons'
+import { faExchangeAlt } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './App.css';
 import LoginPage from './containers/LoginPage/LoginPage';
@@ -16,6 +17,7 @@ import NotFound from './components/NotFound/NotFound';
 library.add(faSearch);
 library.add(faCaretRight);
 library.add(faCaretDown);
+library.add(faExchangeAlt);
 
 class App extends Component {
   state = {

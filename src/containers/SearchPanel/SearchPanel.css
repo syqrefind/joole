@@ -2,24 +2,103 @@
     display: flex;
     flex-direction: column;
     float: left;
-    border: 1px solid black;
+    border: 1px solid #bfbfbf;
     width: 319px;
     font-size: 21px;
 }
 
-/* .boxes {
-    display: inline;
+.boxes {
+    padding: 8px 9px 8px 9px;
+    margin: 0 0 0 0;
+    border: 1px solid #bfbfbf;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.following-boxes {
+    padding: 8px 9px 8px 9px;
+    margin: 0 0 0 0;
+    background-color: white;
+}
+
+/* Important */
+.following-boxes:empty {
+    display: none;
+}
+
+/* .boxes:nth-child(odd) {
+    background-color: #f2f2f2;
+    cursor: pointer;
 } */
+
+.search-header {
+    padding: 8px 9px 8px 9px;
+    border: 1px solid #bfbfbf;
+}
+
+.search-tabs {
+    padding: 0 0 0 0;
+    border: 1px solid #bfbfbf;
+}
+
+.tabs {
+    display: inline-block;
+    width: calc(50% - 2px);
+    text-align: center;
+    padding: 6px 0 6px 0;
+    margin: 0 0 0 0;
+    font-size: 20px;
+    cursor: pointer;
+    /* border: 1px solid #bfbfbf; */
+}
+
+.tabs:first-of-type {
+    background-color: #4b7197;
+    color: white;
+    border-right: 1px solid #bfbfbf;
+}
+
+.input-container {
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.model-year {
+}
+
+.input-year {
+    width: 3em;
+    font-size: 20px;
+}
+
+.save-and-clear {
+    background-color: #7f7f7f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 10px 10px 0 0;
+    padding: 8px 15px 8px 15px;
+    float:right;
+    cursor: pointer;
+}
 
 .entries span {
     float:right;
 }
 
-.boxes:nth-child(odd) {
-    background-color: #f2f2f2;
-    padding: 8px 9px 8px 9px;
-    cursor: pointer;
+.ranged-inputs-box {
+    display: flex;
+    flex-direction: column;
 }
+
+.first-line-of-specs {
+    color: #595959;
+}
+
+.bolded-text {
+    font-weight: bold;
+}
+
 
 .icons {
     /* float: right; */

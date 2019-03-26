@@ -16,16 +16,18 @@ const ShowProducts = props => {
                         Verified 08/21/2016
                     </div>
                     <div className={styles.imageAndName}>
-                        <img src='/static/fans/Big-Ass-Haiku-H-Series-S3150-S0-BC-04-01-C-01.png' height='110' alt='Product'></img>
+                        {/* <img src='/static/fans/Big-Ass-Haiku-H-Series-S3150-S0-BC-04-01-C-01.png' height='110' alt='Product'></img> */}
+                        {/* NEED Asynchronous handler here; replace with a spinning loader animation when loading */}
+                        <img src='https://source.unsplash.com/460x220' height='110' alt='Product'></img>
                         <div className={styles.productName}>
                             Emerson<br />Luray Eco Series<br />CF860
                         </div>
                     </div>
                     <div className={styles.briefSpecs}>
-                    8,500 CFM<br />
-                    33 W at max speed<br />
-                    40 dBA at max speed<br />
-                    60” fan sweep diameter
+                        8,500 CFM<br />
+                        33 W at max speed<br />
+                        40 dBA at max speed<br />
+                        60” fan sweep diameter
                     </div>
                     <div className={styles.history}>
                     Past specifications:<br />10 firm / 1492 global
