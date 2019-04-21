@@ -1,13 +1,13 @@
 ## Backlog
 
-- [ ] User Login (Page 1)
-  - [ ] UI layout
-  - [ ] UX
-- [ ] Product Line Search (Page 2,3)
-- [ ] Product Listing View (Page 4,6)
-- [ ] Advanced Product Search (Page 5)
-- [ ] Basic Product Page View (Page 6-9)
-- [ ] Product Comparison (Page 10,11)
+- [ ] ~~User Login (Page 1)~~
+  - [ ] ~~UI layout~~
+  - [ ] ~~UX~~
+- [ ] ~~Product Line Search (Page 2,3)~~
+- [ ] ~~Product Listing View (Page 4,6)~~
+- [ ] ~~Advanced Product Search (Page 5)~~
+- [ ] ~~Basic Product Page View (Page 6-9)~~
+- [ ] ~~Product Comparison (Page 10,11)~~
 - [x] 404 Component
 - [x] if logged in, go to 404
 
@@ -130,3 +130,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 # joole
+
+List of new technologies to be used in this upgraded project:
+
+- SASS 
+- Jest
+- Jenkins/CircleCI
+- AWS Deployment
+- (Docker)
+- WebSocket
+
+List of NO's:
+
+- No Bootstrap
+- No Material Design Libraries
+- No Glyphcons (Use Fontawesome instead)

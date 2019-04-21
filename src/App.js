@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import { Route, Redirect, Switch} from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { faCaretRight} from '@fortawesome/free-solid-svg-icons'
 import { faCaretDown} from '@fortawesome/free-solid-svg-icons'

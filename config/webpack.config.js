@@ -389,11 +389,25 @@ module.exports = function(webpackEnv) {
             // of CSS.
             // By default we support CSS Modules with the extension .module.css
             {
+              test: /\.scss$/,
+              use: [
+                require.resolve('style-loader'),
+                {
+                  loader: require.resolve('css-loader'),
+                  options: {
+                    importLoaders: 1,
+                    modules: true,
+                    localIdentName: '[path][name]__[local]--[hash:base64:5]',
+                    camelCase: true,
+                  }
+                },
+                require.resolve('sass-loader'),
+              ]
+            },
+            {
               test: /\.css$/,
               use: [
-                // 'to-string-loader',
                 require.resolve('style-loader'),
-                // 'css-loader'
                 {
                   loader: require.resolve('css-loader'),
                   options: {

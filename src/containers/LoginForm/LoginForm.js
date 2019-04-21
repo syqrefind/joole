@@ -157,7 +157,6 @@ class LoginForm extends Component {
                     invalid={!formElementsArray[0].config.valid}
                     shouldValidate={formElementsArray[0].config.validation}
                     touched={formElementsArray[0].config.touched}
-                    // changed={( event ) => this.inputChangedHandler( event, formElementsArray[0].id )}
                     onChange={( event ) => this.inputChangedHandler( event, formElementsArray[0].id )}
                     
                     type='text' required placeholder='Username or Email' />
@@ -167,6 +166,7 @@ class LoginForm extends Component {
                     type='text' required placeholder='Password' />
                     </span><br />
                     <button type='submit' className={styles.logIn}>Log In</button>
+                    {/* <button type='submit' className={styles['log-in']}>Log In</button> */}
                 </form>
             </>
         );

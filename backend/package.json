@@ -1,0 +1,21 @@
+{
+  "name": "joole-apis",
+  "version": "1.0.0",
+  "description": "Serves the Front-End React Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "joole",
+    "node",
+    "express"
+  ],
+  "author": "Daniel Shen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
