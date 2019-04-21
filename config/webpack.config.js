@@ -23,6 +23,7 @@ const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpackPlugin');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
+const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 
 
 // Source maps are resource heavy and can cause out of memory issue for large source files.
@@ -391,7 +392,8 @@ module.exports = function(webpackEnv) {
             {
               test: /\.scss$/,
               use: [
-                require.resolve('style-loader'),
+                // require.resolve('style-loader'),
+                isEnvProduction? MiniCSSExtractPlugin.loader: 'style-loader',
                 {
                   loader: require.resolve('css-loader'),
                   options: {
@@ -503,6 +505,10 @@ module.exports = function(webpackEnv) {
       ],
     },
     plugins: [
+      new MiniCSSExtractPlugin({
+        filename: '[name].css',
+        chunkFilename: '[id].css'
+      }),
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
