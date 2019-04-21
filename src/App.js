@@ -26,6 +26,8 @@ class App extends Component {
 
   render() {
     return (
+      <>
+      <h1 className='react-version'>React Version: {React.version}</h1>
       <div className={styles.container}><Switch>
       {this.state.auth? <Redirect exact from='/' to='/search' />: null}
       <Redirect exact path="/" to='/login' />
@@ -35,6 +37,7 @@ class App extends Component {
       {this.state.auth? <Route path="/product-listing" component={ProductListing} />: null}
       <Route component={NotFound} />
       </Switch></div>
+      </>
     );
   }
 }

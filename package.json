@@ -32,7 +32,6 @@
     "html-webpack-plugin": "4.0.0-alpha.2",
     "i": "^0.3.6",
     "identity-obj-proxy": "3.0.0",
-    "jest": "23.6.0",
     "jest-pnp-resolver": "1.0.2",
     "jest-resolve": "23.6.0",
     "jest-watch-typeahead": "^0.2.1",
@@ -127,8 +126,12 @@
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest": "^23.6.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
+    "react-test-renderer": "^16.8.6",
     "sass-loader": "^7.1.0",
     "webpack": "^4.28.3"
   }
