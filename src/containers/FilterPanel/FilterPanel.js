@@ -2,39 +2,10 @@ import React from 'react';
 import Radium from 'radium';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import styles from './SearchPanel.css';
+import styles from './FilterPanel.css';
 import { faExchangeAlt } from '@fortawesome/free-solid-svg-icons';
 
 const constraints = ['Product Type', 'Technical Specifications', 'Brand', 'Past Selections', 'Certifications'];
-
-// Failed Radium Usage
-
-// const getStyles = (condition = false) => (condition? {
-
-//     boxes: {
-//         padding: "'8px' '9px' '8px' '9px'",
-//         margin: "0, 0, 0, 0",
-//         border: "'1px', 'solid', '#bfbfbf'",
-//         ":nth-child(odd)": {
-//             backgroundColor: "#f2f2f2",
-//             cursor: "pointer"
-//         },
-//         display: "none"
-//     }
-
-// }:{
-//     boxes: {
-//         padding: "'8px' '9px' '8px' '9px'",
-//         margin: "0, 0, 0, 0",
-//         border: "'1px', 'solid', '#bfbfbf'",
-//         ":nth-child(odd)": {
-//             backgroundColor: "#f2f2f2",
-//             cursor: "pointer"
-//         }
-//     }}
-// );
-
-
 
 const specs = [
     {
@@ -149,7 +120,7 @@ let boxes = constraints.map((constraint, index) =>
     </>
 );
 
-const SearchPanel = props => {
+const FilterPanel = props => {
     return (
         <div className={styles.container}>
             <div className={styles.searchHeader}>
@@ -166,6 +137,6 @@ const SearchPanel = props => {
     );
 }
 
-// export default Radium(SearchPanel);
-export default SearchPanel;
+// export default Radium(FilterPanel);
+export default FilterPanel;
 

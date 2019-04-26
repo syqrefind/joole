@@ -1,16 +1,3 @@
-## Backlog
-
-- [ ] ~~User Login (Page 1)~~
-  - [ ] ~~UI layout~~
-  - [ ] ~~UX~~
-- [ ] ~~Product Line Search (Page 2,3)~~
-- [ ] ~~Product Listing View (Page 4,6)~~
-- [ ] ~~Advanced Product Search (Page 5)~~
-- [ ] ~~Basic Product Page View (Page 6-9)~~
-- [ ] ~~Product Comparison (Page 10,11)~~
-- [x] 404 Component
-- [x] if logged in, go to 404
-
 ## Notes
 
 #### Login Page
@@ -40,8 +27,6 @@ select: \#d9d9d9
 Color and triangle: #595959
 
 search icon: \#443f3f
-
-> In `vh`.
 
 Size:722x41 (661)
 
@@ -129,19 +114,46 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-# joole
+# joole plus
 
-List of new technologies to be used in this upgraded project:
+> The state-of-art MERN-Stack web application implementing an B2B E-Commerce (procurement) business model.
 
-- SASS 
+List of additional technologies to be used in this upgraded project:
+
+- Sass/SCSS
 - Jest
+- Enzyme
 - Jenkins/CircleCI
-- AWS Deployment
+- AWS
 - (Docker)
+- HTTPS
 - WebSocket
 
 List of NO's:
 
 - No Bootstrap
 - No Material Design Libraries
-- No Glyphcons (Use Fontawesome instead)
+- No Glyphcons (Use Fontawesome 5 icons instead)
+
+
+
+### Thoughts on Project Management:
+
+Issues with separating work as per component full-stack: 
+
+- **Backend APIs** are not necessarily separated **component-wis**e, resulting in overlapping responsibilities of different **CRUD APIs**
+
+- **Dependency Injection** results in overlapping responsibilities of **services/contexts/actions** & **dispatcher** & **reducers**/**interceptors**
+
+- **Solution**:
+
+  1. ==Build Dummy Data (as subtasks)==
+  2. ==<u>Build/Test UI Components with dummy data (as subtasks)</u>==
+
+  3. ==<u>Build/Test Services/Contexts/Redux Flow with dummy data (as subtasks)</u>==
+
+  4. ==<u>Build/Test APIs mapping CRUD operations (as subtasks)</u>==
+
+  5. ==<u>Build "global services" (i.e. Interceptors/Error Handlers) (as subtasks)</u>==
+
+  6. ==<u>Build Backend Middleware (as subtasks)</u>==

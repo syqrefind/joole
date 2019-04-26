@@ -4,7 +4,7 @@ import { Route, NavLink, Switch, Redirect} from 'react-router-dom';
 import styles from './ProductListing.css';
 
 import TopBar from '../../components/TopBar/TopBar';
-import SearchPanel from '../SearchPanel/SearchPanel';
+import FilterPanel from '../FilterPanel/FilterPanel';
 import ShowProducts from '../ShowProducts/ShowProducts';
 
 class ProductListing extends Component {
@@ -15,7 +15,7 @@ class ProductListing extends Component {
             <>
                 <TopBar />
                 <div className={styles.container}>
-                    <SearchPanel />
+                    <FilterPanel />
                     <ShowProducts />
                 </div>
             </>
