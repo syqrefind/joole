@@ -23,7 +23,6 @@ export const authFail = (error) => {
     };
 };
 
-// exported
 export const logout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('expirationDate');
@@ -41,7 +40,6 @@ export const checkAuthTimeout = (expirationTime) => {
     };
 };
 
-// exported
 export const auth = (email, password, isSignup) => {
     return dispatch => {
         dispatch(authStart());
@@ -50,25 +48,11 @@ export const auth = (email, password, isSignup) => {
             password: password,
             returnSecureToken: true
         };
-        // let url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyBdHVdiAhum7t4UG8c0fHGT-PXUwKvurK4';
-        // let url = './../../dummy-data-collection/users.json';
+
         if (!isSignup) {
             // url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyBdHVdiAhum7t4UG8c0fHGT-PXUwKvurK4';
             console.log('isSignup = false!!!!');
         }
-        // axios.post(url, authData)
-        //     .then(response => {
-        //         console.log(response);
-        //         const expirationDate = new Date(new Date().getTime() + response.data.expiresIn * 1000);
-        //         localStorage.setItem('token', response.data.idToken);
-        //         localStorage.setItem('expirationDate', expirationDate);
-        //         localStorage.setItem('userId', response.data.localId);
-        //         dispatch(authSuccess(response.data.idToken, response.data.localId));
-        //         dispatch(checkAuthTimeout(response.data.expiresIn));
-        //     })
-        //     .catch(err => {
-        //         dispatch(authFail(err.response.data.error));
-        //     });
 
         axios.get('users.json').then(response => {
             let fetchedUsers = [];
@@ -76,8 +60,6 @@ export const auth = (email, password, isSignup) => {
                 fetchedUsers.push(user);
             }
             
-            // chown
-
             // Front-end Authentication (not secure at all; should technically happen in the backend):
             // search for email -> found? nextStep: dispatch authFailure 
             let foundFlag = false;
@@ -110,7 +92,6 @@ export const auth = (email, password, isSignup) => {
     };
 };
 
-// exported
 export const setAuthRedirectPath = (path) => {
     return {
         type: actionTypes.SET_AUTH_REDIRECT_PATH,
@@ -118,7 +99,6 @@ export const setAuthRedirectPath = (path) => {
     };
 };
 
-// exported
 export const authCheckState = () => {
     return dispatch => {
         const token = localStorage.getItem('token');
